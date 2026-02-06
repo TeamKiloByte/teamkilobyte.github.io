@@ -1,23 +1,159 @@
-<!Doctype HTML>
-<!Doctype HTML>
-<link rel="stylesheet" href="../assets/style.css">
-<link rel="stylesheet" href="../assets/econera.css">
-<!--<img src="assets/team-logo.png">-->
-<html>
-  <head>
-    <title>Econera - Discord Bot</title>
-  </head>
-  <body>
-    <div class="heading">
-      <h1>Econera - A Discord Economy Bot </h1><hr>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  />
+  <title>Econera</title>
+
+  <link rel="stylesheet" href="econera.css" />
+</head>
+
+<body>
+  <div class="top-ribbon">
+    <span>
+      E C O N E R A <!-- · A long-term, strategy-driven Discord economy-->
+    </span>
+  </div>
+
+  <!-- Sidebar toggle -->
+  <input type="checkbox" id="sidebar-toggle" />
+  <label for="sidebar-toggle" class="hamburger">☰</label>
+
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <h2>Econera</h2>
+
+    <nav>
+      <a href="#dashboard">Dashboard</a>
+      <a href="#features">Features</a>
+      <a href="#commands">Commands</a>
+    </nav>
+  </aside>
+
+  <!-- Main content -->
+  <main class="content">
+
+    <!-- DASHBOARD / HERO -->
+    <section id="dashboard" class="glass">
+      <div class="hero">
+
+        <img
+          src="assets/econera-bot.png"
+          alt="Econera Bot"
+          class="bot-img-lg"
+        />
+
+        <div class="hero-text">
+          <h1>Econera</h1>
+
+          <p class="tagline">
+            A long-term, strategy-driven Discord economy bot built for
+            serious communities.
+          </p>
+
+          <p class="desc">
+            Econera focuses on progression through skills, degrees, jobs,
+            and cooperation — not grind spam or pay-to-win mechanics.
+          </p>
+
+          <div class="stats">
+            <div>
+              <span class="stat-num" data-target="2">0</span>
+              <span class="stat-label">Servers</span>
+              <p class="update-note">
+              Server count updated weekly.
+              </p>
+
+            </div>
+
+            <div>
+              <span class="stat-num">Multiple</span>
+              <span class="stat-label">Progression Paths</span>
+            </div>
+          </div>
+
+          <a class="invite-btn" href="#">
+            Invite Econera
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section id="features" class="glass">
+      <h2>Features</h2>
+
+      <ul class="feature-list">
+        <li>
+          <strong>Economy Core</strong>
+          <ul>
+            <li>Fictional currency with no real-world value</li>
+            <li>Inflation control via global events</li>
+            <li>Balanced sinks and progression pacing</li>
+          </ul>
+        </li>
+
+        <li>
+          <strong>Progression System</strong>
+          <ul>
+            <li>Degree system (earn once, unlock paths)</li>
+            <li>Skill-based jobs with cooldowns</li>
+            <li>Long-term scaling, not grind spam</li>
+          </ul>
+        </li>
+
+        <li>
+          <strong>Community & Trading</strong>
+          <ul>
+            <li>Guilds with shared identity</li>
+            <li>GUI-based trading system</li>
+            <li>Seasonal badges & collectibles</li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+
+    <!-- COMMANDS -->
+    <section id="commands" class="glass">
+      <h2>Commands</h2>
+
+      <p class="cmd-desc">
+        Econera uses modern slash commands grouped by function.
+      </p>
+
+      <div class="cmd-grid">
+        <span>/balance</span>
+        <span>/daily</span>
+        <span>/bank</span>
+        <span>/trade</span>
+        <span>/guild</span>
+        <span>/degree</span>
+        <span>/job</span>
+        <span>/season</span>
+        <span>/vip</span>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <div class="footer-divider"></div>
+
+  <footer class="footer">
+    <div class="TKB-Tm">
+      © 2026 Econera. All rights reserved. Operated by Team KiloByte.
     </div>
-    <div class="main">
-      <h2>Why Econera?</h2>
-      <h3>Econera is a bot made for the purpose of economy roleplay and balanced game mechanics.</h3>
+
+    <div class="subfooter">
+      <a href="tos.html">Terms of Service</a> ·
+      <a href="privacy.html">Privacy Policy</a>
     </div>
-    <div class="footer">
-      <hr>
-      <span class="TKB-Tm">Copyright © 2026 Team KiloByte™</span>
-    </div>
-  </body>
+  </footer>
+
+  <script src="econera.js"></script>
+</body>
 </html>
